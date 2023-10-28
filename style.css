@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    background-color: #f8f9fa;
+}
+.header-1 {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+}
+.navbar {
+    height: 100px;
+    background-color: black;
+}
+span { 
+    font-weight: 400;
+    font-size: 25px;
+}
+span:hover {
+    color: rgb(255, 191, 0);
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: darkred;
+}
+img {
+    position: relative;
+    left: -15px;
+    top: 5px;
+}
+
+/**section**/
+.IPL {
+    height: 300px;
+    width: 100%;
+    border: 2px solid;
+    align-items: center;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/ipl-2021-ipl-t20-indian-premier-league-cricket-ipl-2021-3440x1440-4994.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 70px;
+    animation: border .9s ease 1s infinite ;;
+}
+@keyframes border {
+    from {
+        border: none;
+    }
+    to {
+        border: 5px solid red;
+    }
+}
+.main {
+    position: relative;
+    top: 120px;
+    color: black;
+    
+}
+.main h1 {
+    font-size: 60px;
+    color: black;
+    font-weight: 600px;
+}
+.main p {
+    font-size: 30px;
+    color: white;
+   
+}
+/* Style the sidebar */
+aside {
+    background-color: #ddd;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+aside h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+/**section teams**/
+
+#teams {
+    height: 100vh;
+    width: 100%;
+}
+
+.c1 {
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid; */
+  margin: auto;
+ 
+}
+#individual {
+    /* height: 100vh; */
+}
+/**stats**/
+.card-1 {
+    height: 500px;
+    border: 2px transparent;
+    margin:auto;
+    border-radius: 10px;
+}
+.card-1 img {
+    height: 450px;
+}
+.card-1:hover {
+    box-shadow: 10px 10px 10px grey,-10px -10px 10px grey;
+    background-color: #ddd;
+    
+}
+.st-1 {
+    position: relative;
+    left: 10px;
+}
+/**Live Scores**/
+
+#liveScore {
+    /* height: 100vh; */
+    width: 100vw;
+}
+
+.live {
+    height: 443px;
+    width: 100%;
+    border: 2px solid transparent;
+    margin-top: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+.live:hover {
+    border: 2px solid;
+    box-shadow: 20px 20px 10px grey,-20px -20px 10px grey;
+    transform: rotate(.5deg);
+}
+.live img {
+    left: 30px;
+    right: 50px;
+}
+.col {
+   column-gap:  10px;
+}
+.ScoreCard:hover {
+    background-color: #ccc;
+    
+}
+.totalScore {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.overs {
+    color: #888;
+}
+
+.versus {
+    font-weight: bold;
+}
+
+.IPLCaptains {
+    /* height: 100vh; */
+}
+.c2 {
+    margin-left:auto ;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+.c2 img {
+    height: 550px;
+    width: 300px;
+}
+#points {
+    height: 120vh;
+}
+/**points Table**/
+.table-1 {
+    margin: 10px;
+    border: 2px solid transparent;
+    padding: auto;
+    
+}
+.table-1:hover {
+    box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+}
+.table-1 col:hover {
+    box-shadow: 10px 10px 10px black,-10px -10px 10px black;
+}
+
+/**player of season**/
+#Player-Season {
+    /* height: 100vh; */
+}
+.footer-1 h3{
+    height: 150px;
+   
+    width: 100%;
+    /* margin: auto; */
+}
